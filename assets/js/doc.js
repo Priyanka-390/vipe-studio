@@ -8,6 +8,7 @@ let span3 = document.querySelector(".span3");
 
 menu.addEventListener("click", function () {
     mobileView.classList.toggle("show");
+    mobileView.classList.toggle("-left-full");
     body.classList.toggle("overflow-hidden");
     span1.classList.toggle("rotate1");
     span2.classList.toggle("rotate2");
@@ -15,6 +16,7 @@ menu.addEventListener("click", function () {
 })
 navlinks.addEventListener("click", function () {
     navlinks.classList.toggle("show");
+    navlinks.classList.toggle("-left-full");
     body.classList.remove("overflow-hidden");
     span1.classList.toggle("rotate1");
     span2.classList.toggle("rotate2");
